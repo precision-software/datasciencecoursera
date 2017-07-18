@@ -1,2 +1,16 @@
+# This file contains project-wide Git settings. 
+#   By placing settings in this file, and including this
+#   file in the project, all contributors will have the 
+#   correct settings, even if they forget to set Git's 
+#   global settings on their development machines.
+#
+# This file is particularly useful for dealing with line endings
+#   and cross-platform development. Otherwise, one misconfigured
+#   Windows developer can wreak havoc on source control.
+  
+# Text files are checked in using Linux style line endings.
+#   and checked out using the local platform's convention.
+#   The exception is shell scripts. On Windows, Cygwin's "bash"
+#   requires Linux style lines for it's ".sh" shell scripts.
 * text=auto
 *.sh text eol=lf
